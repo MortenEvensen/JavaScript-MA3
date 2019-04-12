@@ -1,0 +1,41 @@
+JavaScript MA03
+----------------
+Level 2
+
+1. In your own words, describe what JavaScript Code Style is.
+
+JavaScript Code Style is the style someone uses for their coding, meaning how the place the text, symbols and whitespace in the script. There are some common practices like using camelCase when naming variables and aligning brackets so it's clear where is starts and ends. The conventional way of styling JavaScript is based on the most common ways that people styles their code, and when everyone tries to write code in a similar way, it gets easier for everyone to read each others code. 
+
+2. What is a Regular Expression?
+
+A regular expression is a way of detecting pattern from strings. This is useful for checking that data are correct and for replacing data. 
+
+3. What does the .random() method do?
+
+The .random() method generates a random number between 0 and 1. 
+
+4. What does the .sort() method do?
+
+The .sort() method sorts the content of an array alphabetically. 
+Using .sort on an array containing "charlie", "baboon" and "apes" (in that order) would return "apes", "baboon" "charlie". 
+
+5. What does the .reverse() method do?
+
+The .reverse() method reverses the order of the elements in an array. 
+
+6. List two examples of bad JavaScript code.
+
+1) Not using the var statement when declaring variables (or let/const instead of var). 
+2) Using global scope when it can and should be local. Global scope can mess things up!
+
+7. What data types can a JSON object contain?
+
+A JSON object can contain booleans, arrays, objects, numbers, null or strings.
+
+8. What is minifying JavaScript Code?
+
+When you minify JavaScript Code, you remove all the things that are unnecessary in the script, so the script can run faster. That could be white space, comments, unnecessary lines of code (things that are written twice etc). There are online sources that can help with the process of minifying code, and it's good practice to try to make the script as efficient as possible (while still maintaining human readability) when you'r programming. 
+
+9. What is a global variable?
+
+A global variable is a variable that is declared outside of a function or an object, and is therefore accessible from anywhere within the script. This can lead to problems, as the variable can easily be changed throughout the script if you are not careful about you name your elements. 
